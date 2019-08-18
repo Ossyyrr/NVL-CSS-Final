@@ -1,0 +1,143 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("../images/fondo.png");
+    background-attachment: fixed;
+}
+#pagina{
+    width: 1400px;
+    margin: -10px auto;
+}
+#container{
+    width: 1400px;
+    min-height: 300px;
+    float: left;
+}
+
+header{
+    width: 1400px;
+    height: 80px;
+    text-align: center;
+    background: linear-gradient(to right, #ffd51c, #ffd51c11 29%, #ffd51c00, #ffd51c11 71%, #ffd51c ) ;
+    z-index: 1;
+}
+h1{
+    margin: 0px;
+    padding-top: 20px;
+    
+}
+
+#der h3{
+    text-align: center;
+}
+
+.ref{
+    width: 300px;
+    min-height: 200px;
+    
+
+}
+#izq{
+    float: left;
+    
+}
+#cen{
+    width: 800px;
+    min-height: 500px;
+    float: left;
+}
+#der{
+    float: left;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(to right, #ffd51c41, #ffd51c);
+
+}
+
+img{ 
+    height: 100%;
+    width: 100%;
+}
+
+
+.articulo{
+    width: 700px;
+    height: 250px;
+    margin: 30px 50px;
+    border: 1px #ffd51c solid;
+}
+
+.interior{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.interiortarjeta{
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.tarjeta{
+    width: 250px;
+    height: 250px;
+    margin: 30px auto;
+    border: 1px #ffd51c solid;
+}
+
+.foto{
+    overflow: hidden;
+    transition: 1s;
+    background-color: #ffd51c;
+}
+.texto{
+    background-color: white;
+}
+.texto h2{
+    padding: 0px 20px;
+    
+}
+.texto p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.foto:hover{
+    
+    filter:  contrast(150%) saturate(120%);
+}
+ul{
+    color: white;
+    position: sticky;
+    width: 260px;
+    margin-top: 0px;
+    top: 0px;
+    float: left;
+    background: linear-gradient(to left, #ffd51c41, #ffd51c);
+}
+li{
+    list-style: none;
+    margin-right: 40px;
+    border-bottom: 1px #ffffff solid;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+li a:hover{
+    color: rgb(51, 159, 248);
+}
+
+h4{
+    padding: 20px 25px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    position: sticky;
+    top: 15px;
+    z-index: -1;
+}
